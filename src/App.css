@@ -1,0 +1,114 @@
+/* General Body Settings */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #333; /* Darker background color */
+  margin: 0;
+  padding: 20px;
+  color: #f9f9f9; /* Lighter text for readability */
+}
+
+/* Header Styles */
+header {
+  background-color: #424242; /* Darker background for the header */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header nav button {
+  margin: 0 15px; /* Increased spacing between buttons */
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+header nav button:hover {
+  background-color: #0056b3;
+}
+
+/* Main Section Styles */
+main {
+  background-color: #424242; /* Consistent darker background for sections */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.meal-counter p {
+  margin: 10px 0;
+}
+
+.meal-counter button {
+  margin: 0 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.meal-counter button:hover {
+  background-color: #218838;
+}
+
+/* Achievements Styles */
+.achievements nav button {
+  padding: 10px 20px;
+  margin-right: 15px; /* Increased spacing between buttons */
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.achievements nav button:hover {
+  background-color: #138496;
+}
+
+.achievements .content {
+  margin-top: 20px;
+}
+
+.achievements .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements .content li {
+  background: #e9ecef;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #333; /* Ensuring readability on lighter backgrounds */
+}
+
+/* Image Styling */
+.img {
+  width: 10%; /* Full width for the image */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header, main, .achievements {
+      padding: 10px;
+  }
+
+  header nav button, .achievements nav button {
+      width: 100%;
+      margin-top: 10px;
+      margin-right: 0; /* Remove right margin for mobile view */
+  }
+}
